@@ -2,7 +2,7 @@
 # All fields mentioned below are optional.
 
 # Enable Or Disable EPG Generation. Default: false
-epg = false
+epg = true
 
 # Enable Or Disable Debug Mode. Default: false
 debug = false
@@ -11,13 +11,13 @@ debug = false
 disable_ts_handler = false
 
 # Enable Or Disable Logout feature. Default: true
-disable_logout = false
+disable_logout = true
 
 # Enable Or Disable DRM. As DRM is not supported by most of the players, it is disabled by default. Default: false
 drm = false
 
 # Title of the webpage. Default: JioTV Go
-title = ""
+title = "MAHESH KADALI JIO LIVE"
 
 # Enable Or Disable URL Encryption. URL Encryption prevents hackers from injecting URLs into the server. Default: true
 # If you think it is unnecessary, you can disable it. But it is recommended to enable it.

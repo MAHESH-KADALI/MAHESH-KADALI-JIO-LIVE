@@ -1,10 +1,10 @@
 {
-    "epg": false,
-    "debug": false,
+    "epg": true,
+    "debug": true,
     "disable_ts_handler": false,
-    "disable_logout": false,
+    "disable_logout": true,
     "drm": false,
-    "title": "",
+    "title": "MAHESH KADALI JIO LIVE",
     "disable_url_encryption": false,
     "path_prefix": "",
     "proxy": ""
