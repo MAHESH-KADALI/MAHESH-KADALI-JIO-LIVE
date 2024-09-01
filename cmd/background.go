@@ -57,7 +57,7 @@ func RunInBackground(args string) error {
 // started with RunInBackground. It reads the PID from the PID file, sends a kill
 // signal to that process, and deletes the PID file. Returns any errors encountered.
 func StopBackground() error {
-	fmt.Println("Stopping JioTV Go server running in background...")
+	fmt.Println("Stopping Mahesh Kadali Jio Live server running in background...")
 
 	// Read the PID from the file
 	pidBytes, err := os.ReadFile(PID_FILE_PATH)
@@ -74,13 +74,13 @@ func StopBackground() error {
 
 	process, err := os.FindProcess(pid)
 	if err != nil {
-		return fmt.Errorf("failed to find JioTV Go process: %w", err)
+		return fmt.Errorf("failed to find Mahesh Kadali Jio Live process: %w", err)
 	}
 
 	// Send a kill signal to the process
 	err = process.Kill()
 	if err != nil {
-		return fmt.Errorf("failed to kill JioTV Go process: %w", err)
+		return fmt.Errorf("failed to kill Mahesh Kadali Jio Live process: %w", err)
 	}
 
 	// Remove the PID file after successfully killing the process
